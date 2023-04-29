@@ -11,6 +11,6 @@ sudo apt-get update
 sudo apt-get install jenkins -y
 sudo systemctl start jenkins
 sudo apt install maven -y
-#delete this line and input your datadog api key inside
+DD_API_KEY=7b3d40d871dc483faa446afbdbb72f52 DD_SITE="datadoghq.com" bash -c "$(curl -L https://s3.amazonaws.com/dd-agent/scripts/install_script_agent7.sh)"
 
 done
